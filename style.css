@@ -1,0 +1,29 @@
+*{outline: 1px solid rgba(255,0,0,0.2);}
+
+.container{
+	width: 100%;
+	margin: 0 auto;
+	display: inline-block;
+}
+.cinema{
+	display: block;
+}
+#header .logo{
+max-width: 100%;
+}
+.movie{
+	width: 150px;
+}
+.col-8{
+	text-align: left;
+	display: inline-block;
+}
+.banner{
+	background: #333 url("img/banner.jpg") left center no-repeat;
+	background-size: 60%;
+	padding: 20px 0px;
+}
+.icono{
+	width: 40px;
+	height: 40px;
+}
