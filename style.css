@@ -18,12 +18,24 @@ max-width: 100%;
 	text-align: left;
 	display: inline-block;
 }
-.banner{
+/*.banner{
 	background: #333 url("img/banner.jpg") left center no-repeat;
 	background-size: 60%;
 	padding: 20px 0px;
+}*/
+
+.hero{
+	background: #3a3737 url("img/banner.jpg") left center no-repeat;
+	background-size: contain;
+	color: ;
+	position: relative;
 }
-.icono{
+
+.icono-hero{
+	position: absolute;
+	top: 50%;
+	margin-top: -50px;
+	margin-left: -50px;
+	left: 40px;
 	width: 40px;
-	height: 40px;
 }
