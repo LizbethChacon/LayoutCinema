@@ -5,60 +5,133 @@
 	<title>CinemaLayout</title>
 	<link rel="stylesheet" type="text/css" href="grid-system.css">
 	<link rel="stylesheet" type="text/css" href="utilities.css">
+	<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+
 	<div id="header">
 		<div class="container">
-			<div class="row cinema">
+			<div class="row header">
 				<div class="col-8">
-					<img class="logo" src="img/logo.png">MOVIE THEATER
+					<img class="logo" src="img/logo.png"><span class="cinema">MOVIE THEATER</span>
 				</div>
 				<div class="col-4">
-					<input class="input-search"><button type="submit">A</button>
-					</input>
+					<input class="buscador" type="search" placeholder="Buscar"><button class="fa fa-search"></button></input>
 				</div>
 			</div>
 		</div>
 	</div>
-<div class="hero">
-	<div class="container">
-		<div class="row">
-			<div class="col-8 container-icon">
-				<img class="icono-hero" src="img/icono.jpg">
-			</div>
-			<div class="col-4">
-				<h1>BIG HERO 6</h1> 
-				<p>All age</p> Don Hall,Chris Williams
-				<div class="row">
-					<div class="col-5">
-						Ratting <br>
-						Genre <br>
-						Release
-					</div>
-					<div class="col-7">
-						: 8,5/10 <br>
-						: Animation, Action, Comedy <br>
-						: 7 November 2014
-					</div>
-					<p>The special bond that develops between plus-sized inflatable robot Baymax, and prodigy Hiro Hamada, who team up with a group of friends to form a band of high tech heroes</p>
-					<div class="watch">WATCH TRAILER</div>
-					<div class="book">BOOK TICKET</div>
+	
+	<div id="hero">
+		<div class="container">
+			<div class="row">
+				<div class="col-8 container-icon">
+					<img class="icono-hero" src="img/icono.jpg">
 				</div>
+				<div class="col-4">
+					<h1>BIG HERO 6</h1>
+					<hr> 
+					<div class="big-hero">
+						<p class="boton-verde">All age</p><span class="casting">Don Hall,Chris Williams</span>
+						<div class="row">
+							<div class="col-4">
+								<div><b>Ratting</b></div><br>
+								<div><b>Genre</b></div><br>
+								<div><b>Release</b></div>
+							</div>
+							<div class="col-8">
+								<div>: 8,5/10</div><br>
+								<div>: Animation, Action, Comedy</div><br>
+								<div>: 7 November 2014</div><br>
+							</div>
+							<div> <p class="sinapsis">The special bond that develops between plus-sized inflatable robot Baymax, and prodigy Hiro Hamada, who team up with a group of friends to form a band of high tech heroes</p></div>
+							<div class="icon"><button class="watch"><i class="fa fa-youtube-play" aria-hidden="true"></i>WATCH TRAILER</button></div>
+							<div class="icon"><button class="reservar"><i class="fa fa-ticket" aria-hidden="true"></i>BOOK TICKET</button></div>					
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div id="cartelera">
+		<ul class="cartelera">
+			<li><img class="img-cart" src="img/imagen1.jpg"></li>
+			<li><img class="img-cart" src="img/imagen2.jpg"></li>
+			<li><img class="img-cart" src="img/imagen3.jpg"></li>
+			<li><img class="img-cart" src="img/imagen4.jpg"></li>
+			<li><img class="img-cart" src="img/imagen5.jpg"></li>
+			<li><img class="img-cart" src="img/imagen6.jpg"></li>
+		</ul>
+	</div>
+	
+	<div id="trailer">
+		<div class="row trailer">
+			<div class="col-12">
+				<iframe width="100%" height="315" src="https://www.youtube.com/embed/2LqzF5WauAw" frameborder="0" allowfullscreen></iframe>
+			</div>				
+		</div>
+	</div>
 
+	<div id="description">
+		<div class="description">	
+			<div class="row">
+				<div class="col-6 compra">
+					<div>Don't be late,</div>
+					<div class="negrita"><b>Book your ticket now!</b></div>
+					<div>Easy, simple & fast.</div>
+					<div class="icon"><button class="comprar"><i class="fa fa-ticket" aria-hidden="true"></i>BOOK TICKET</button></div>
+					<div>Get Discount up to 10% if you are a member!</div>
+				</div>
+				<div class="col-6 noticias">
+					<h2>News</h2>
+					<div class="lorem">
+					<b>Lorem Ipsum Dolor Sit Amet</b> <br>
+					Nov 11-2014 <br>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					</div>
+					<div class="lorem">
+					<b>Lorem Ipsum Dolor Sit Amet</b> <br>
+					Nov 11-2014 <br>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					</div>
+					<h5><b>MORE</b></h5>
+				</div>
 			</div>
 		</div>
 	</div>
-</div>
+	<div id="estrenos">
+		<ul class="estrenos">
+			<li><img class="img-estr" src="img/imagen6.jpg"></li>
+			<li><img class="img-estr" src="img/imagen7.jpg"></li>
+			<li><img class="img-estr" src="img/imagen8.jpg"></li>
+			<li><img class="img-estr" src="img/imagen9.jpg"></li>
+		</ul>
+	</div>
+	<div id="footer">
+		<div class="row">
+			<div class="col-12 pie">
+				<div>
+					<b>Disclaimer:</b> <br>
+					this is freebies and not an official webside, I have no intention of disclose any movie, brand, news. <br>
+					My goal here is to train or excercise my skill and share this freebies.
+				</div>
+				<div class="uno">
+					created by Fikristudio in <b>Indonesia</b> 
+				</div>
+				<div>
+					Dribble.com/bagus_firi <br>
+					Be.net/bagusfriki <br>
+					www.friistudio.com
+				</div>
+			</div>
+		</div>
+	</div>
+
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
