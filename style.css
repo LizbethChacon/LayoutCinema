@@ -126,20 +126,21 @@ hr{
 .description{
 	padding: 30px 50px;
 }
-
 .compra{
 	color: #CCD1CC;
 }
-
-
-
-
-
+.gris{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-size: 25px;
+}
 .negrita{
 	color: #000;
-	font-size: 16px;
+	font-size: 30px;
 }
-
+.cafe{
+	color: #C85416;
+}
 .comprar{
 	background: #BE7531;
 	color: #FFFFFF;
@@ -153,13 +154,26 @@ hr{
 .fa-ticket{
 	margin-right: 4px;
 }
-
 .noticias{
 	color: #CCD1CC;
+	padding-left: 20px
 }
-
-
-
+h2{
+	padding-top: 20px;
+}
+.lorem{
+	border-bottom: 1px solid #CCD1CC;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	font-size: 15px;
+}
+.oscuro{
+	color: #000000;
+}
+h5{
+	color: #E7961C;
+	padding-top: 20px;
+}
 
 .estrenos{
 	padding: 20px 50px;
